@@ -87,3 +87,18 @@ span {
 .github_logo:hover {
     background-color: #83CD29;
 }
+
+section {
+    color: #83CD29;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+section h2 dl{
+    color: #7C97BA;
+}
+
+section p {
+    color: #7C97BA;
+}
