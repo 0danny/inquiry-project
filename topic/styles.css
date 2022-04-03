@@ -90,7 +90,7 @@ span {
 
 .title {
     color: #83CD29;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .title, .paragraph, .images, #ryan_dahl, .table {
