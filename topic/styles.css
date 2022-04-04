@@ -106,7 +106,7 @@ span {
     background-color: #1A2431;
     font-weight: 700;
     text-align: center;
-    padding: 30px 65px 85px 50px;
+    padding: 30px 65px 85px 165px;
     width: 90%;
 }
 
@@ -129,7 +129,7 @@ span {
 }
 
 aside {
-    width: 10%;
+    width: 15%;
     padding-left: .5rem;
     margin-left: .5rem;
     float: right;
@@ -212,6 +212,10 @@ li::before {
 
 table li {
     padding: 0.2em;
+}
+
+.table {
+    width: 59%;
 }
 
 .table caption {
