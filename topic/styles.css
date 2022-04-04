@@ -54,7 +54,20 @@ nav a {
     font-size: 1.3em;
     padding: 20px;
     border-bottom: 1px solid #7A97BA;
-    border-top: 1px solid #7A97BA;
+    border-top: 1px solid hsl(213, 32%, 60%);
+}
+
+#sub_head {
+    font-size: 0.5em;
+    padding: -15px;
+    margin-top: 70px;
+    margin-bottom: -50px;
+    margin-left: -150px;
+    margin-right: -150px;
+}
+
+#sub_head a {
+    margin-right: -10px;
 }
 
 nav a:hover {
@@ -88,19 +101,35 @@ span {
     background-color: #83CD29;
 }
 
+#special {
+    color: white;
+    background-color: #1A2431;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px 65px 85px 50px;
+    width: 90%;
+}
+
 .title {
     color: #83CD29;
     font-weight: 600;
 }
 
-.title, .paragraph, .images, #ryan_dahl, .table {
+.title, .paragraph, .images, #ryan_dahl, .table, #u_list {
     padding: 10px;
     padding-left: 15px;
     text-align: left;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.paragraph {
+    border: none;
+    width: 59%;
 }
 
 aside {
-    width: 40%;
+    width: 10%;
     padding-left: .5rem;
     margin-left: .5rem;
     float: right;
@@ -124,7 +153,7 @@ img {
     border-radius: 8px;
   }
 
-.paragraph, figcaption, caption, .u_list, .table {
+.paragraph, figcaption, caption, #u_list, .table {
     color: #7C97BA;
     font-weight: initial;
     font-size: larger;
@@ -156,6 +185,10 @@ li::before {
     border-top-left-radius: 12px;
 }
 
+.mid {
+    background-color: #212643;
+}
+
 #cons {
     color: white;
     background-color: #212643;
@@ -178,7 +211,7 @@ li::before {
 }
 
 table li {
-    padding: 0.1em;
+    padding: 0.2em;
 }
 
 .table caption {
@@ -194,21 +227,20 @@ table.roundedCorners, th, td {
 }
 
 #def_list {
-    color: #7C97BA;
     font-weight: initial;
     font-size: large;
     border: none;
     padding: 10px;
     padding-left: 15px;
+    width: 60%;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 20px;
 }
-
-
 
 dl {
     border: none;
     background-color: #343b67;
-    max-width: 59%;
-    height: auto;
     border-radius: 12px;
     padding: 0.5em;
 }
@@ -216,9 +248,9 @@ dl {
 dt {
     float: left;
     clear: left;
-    width: 50px;
     text-align: right;
     font-weight: bold;
+    width: 120px;
     color: #2da6db;
 }
 
@@ -228,7 +260,7 @@ dt::after {
 
 dd {
     color: white;
-    margin: 0 0 0 60px;
+    margin: 0 0 0 130px;
     padding: 0 0 0.5em 0;
 }
 
@@ -236,9 +268,13 @@ dd {
     margin-left: 1.5rem
 }
 
-.u_list li {
+#u_list li {
     margin-left: 3rem;
     padding: 0.2rem;
+}
+
+footer strong {
+    font-size:large;
 }
 
 a:link {
@@ -255,8 +291,4 @@ a:hover {
 
 a:active {
     color: #343b67;
-}
-
-footer strong {
-    font-size:large;
 }
