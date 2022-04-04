@@ -67,6 +67,8 @@ footer {
     margin-top: auto;
     background-color: #253447;
     padding: 30px;
+    clear: both;
+
 }
 
 footer p {
@@ -92,7 +94,64 @@ span {
 
 .subheader {
     color: #83CD29;
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
 .horizontal{
-    width: 6em;
+    width: 5.7em;
+    margin-left: 50%;
+}
+
+.table_image {
+    margin: 10px;
+    height: auto;
+    width: 5em;
+    border: 1px solid #83CD29;
+}
+
+.index_page {
+    margin: 10px;
+}
+
+#table{
+    float: left;
+    clear:both;
+}
+
+#link_index{
+    flex: 2;
+    border-color: white;
+    border-width: 3em;
+    margin: 10px;
+}
+#link_index a {
+    float: right;
+    text-decoration: none;
+    color: #7A97BA;
+    font-weight: bold;
+    
+    font-size: 1.3em;
+    border: 1px solid white;
+    border-radius: 10em;
+}
+
+#link_index a:hover {
+    color: #1F487E;
+}
+
+#intro_para{
+    width: 30%;
+    float: left;
+    border: 1px solid white;
+    border-radius: 1em;
+    padding:1em;
+}
+
+#about{
+    margin: 3em;
+}
+
+.header_title_index {
+    color: #83CD29;
+    margin-left: 50%;
 }
