@@ -4,10 +4,7 @@
 @media screen and (min-width: 31.25em) {
     
    nav a {
-       clear: both;
-       float: middle;
-       display:flex;
-       flex-direction: column;
+       display: block;
    }
 
 }

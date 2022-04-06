@@ -1,0 +1,11 @@
+/* media query for display: under 500 px */
+@media screen and (max-width: 31.25em) {
+    nav a {
+        display: block;
+        font-size: 1em;
+    }
+
+    article {
+        min-width: 320px;
+    }
+}
