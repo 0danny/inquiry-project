@@ -9,12 +9,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Node JS Topic</title>
-    <link rel="icon" href="images/node_logo.webp">
+    <link rel="icon" href="styles/images/node_logo.webp">
       <!-- References to external responsive CSS file -->
-  <link href="responsive.css" rel="stylesheet" media="screen and (max-width: 1024px)"/>
-  <link href="responsive_small.css" rel="stylesheet" media="screen and (max-width: 600px)"/>
+  <link href="styles/responsive.css" rel="stylesheet" media="screen and (max-width: 1024px)"/>
+  <link href="styles/responsive_small.css" rel="stylesheet" media="screen and (max-width: 600px)"/>
     <!-- References to external CSS files -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/topic.css">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
     <header>
         <div class="header_title_wrapper">
             <a href="index.html">
-                <img src="images/node_logo.webp" class="header_logo" alt="node logo">
+                <img src="styles/images/node_logo.webp" class="header_logo" alt="node logo">
             </a>
             <h1 class="header_title">Node.JS</h1>
         </div>
@@ -30,13 +31,13 @@
         <nav>
             <a class="top" href="index.html">Home</a>
             <a class="top" href="topic.html">Topic</a>
-            <a class="bottom" href="quiz/quiz.html">Quiz</a>
+            <a class="bottom" href="quiz.html">Quiz</a>
             <a class="bottom" href="enhancements.html">Enchancements</a>
         </nav>
 
         <div class="link_wrapper">
             <a href="https://github.com/DannyOCE/inquiry-project">
-                <img src="images/github_logo.png" class="github_logo" alt="github logo">
+                <img src="styles/images/github_logo.png" class="github_logo" alt="github logo">
             </a>
         </div>
     </header>
@@ -102,13 +103,13 @@
     <p>As Node uses <a href="#async">asynchronous programming</a>, it can handle common tasks such as opening files on the server and then returning the content to the client faster than other runtimes by eliminating the waiting time during system opening and reading a file, and instead simply continues with the next request.<a href="#node_rise"><sub>[3]</sub></a></dd></p>
 
     <figure class="images">
-        <img src="images/node_architecture.jpg" alt="Node.js single thread can handle multiple requests"><figcaption>Node.js' asynchronous technology</figcaption>
+        <img src="styles/images/node_architecture.jpg" alt="Node.js single thread can handle multiple requests"><figcaption>Node.js' asynchronous technology</figcaption>
     </figure>  
     
     <p>In contrast, runtimes with <a href="#sync">synchronous programming</a>, such as <a href="#php">PHP</a> and <a href="#asp">ASP</a>, must return the content to the server before the request for the next file can be placed.<a href="#node_rise"><sub>[4]</sub></a></p>
 
     <figure class="images">
-        <img src="images/synchronous_technologies.jpg" alt="Synchronous technology thread can only had one request at a time"><figcaption>Synchronous technologies can only handle one request at a time</figcaption>
+        <img src="styles/images/synchronous_technologies.jpg" alt="Synchronous technology thread can only had one request at a time"><figcaption>Synchronous technologies can only handle one request at a time</figcaption>
     </figure>
 
     <p>Node is ideal for building highly scalable, data-intensive, real-time applications that power client applications. It is great for prototyping and agile development and creating super-fast and highly scalable services. Additionally, Node applications use <a href="#js">JavaScript</a>, and as such, it allows for a cleaner and more consistent codebase when used alongside <a href="#js">JavaScript</a>. Node also has the largest ecosystem of open-source libs allowing the developer to focus on constructing the core of the applications rather than building the whole thing from the ground up.<a href="#js1"><sub>[5]</sub></a> </p>
@@ -133,7 +134,7 @@
     <p>Ryan Dahl initially released Node.js in May 27, 2009. His inspiration for developing the runtime arose from the problem he faced when trying to update a progress meter on a web page used for uploading files with Ruby web servers. At a glance, a truly simple task, which however required a truly complex solution.<a href="#cr"><sub>[7]</sub></a></p>
 
     <figure id="ryan_dahl">
-        <img src="images/ryan_dahl.jpg" alt="Ryan Dahl"><figcaption>Ryan Dahl, the creator of Node.JS</figcaption>
+        <img src="styles/images/ryan_dahl.jpg" alt="Ryan Dahl"><figcaption>Ryan Dahl, the creator of Node.JS</figcaption>
     </figure>
     </section>  
 
@@ -149,13 +150,13 @@
     <p>There are several stats which claim Node.js' rise to dominance over the past couple of years. Such is the graph below which depicts the runtime’s dominance in the IT world as of 2019.<a href="#node_rise"><sub>[9]</sub></a></p>
 
     <figure class="images">
-        <img src="images/node.js_for_enterprises.png" alt="Node.js enterprise dominance chart"><figcaption>The dominance of Node.js in the IT world as of 2019</figcaption>
+        <img src="styles/images/node.js_for_enterprises.png" alt="Node.js enterprise dominance chart"><figcaption>The dominance of Node.js in the IT world as of 2019</figcaption>
     </figure>
 
     <p>The skill to work in Node has also become very sought after in the eyes of tech giants when seeking applicants to their job advertisements, as depicted by the Indeed Job Trends chart found below.<a href="#node_rise"><sub>[10]</sub></a></p>
 
     <figure class="images">
-        <img src="images/node.js_job_trends.png" alt="Node.js job trends chart"><figcaption>Popularity of Node.js as outlined by Indeed Job Trends</figcaption>
+        <img src="styles/images/node.js_job_trends.png" alt="Node.js job trends chart"><figcaption>Popularity of Node.js as outlined by Indeed Job Trends</figcaption>
     </figure>
 
     <p>While the chart only shows and compares the growth of the jobs requiring the individual’s knowledge in the specific coding language not the absolute number, it is still a good indication about Node.js’ tremendous growth over all other technologies.<a href="#node_rise"><sub>[11]</sub></a></p>

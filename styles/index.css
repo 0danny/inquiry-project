@@ -1,0 +1,132 @@
+body {
+    color: white;
+}
+
+footer {
+    clear: both;
+}
+.subheader {
+    color: #83CD29;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.horizontal{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-width: 1em;
+}
+
+.table_image {
+    margin: 10px;
+    height: auto;
+    width: 5em;
+    border: 1px solid #83CD29;
+}
+
+.index_page {
+    margin: 10px;
+}
+
+#table{
+    float: left;
+    clear: left;
+    
+}
+
+#link_index{
+    border: 10px solid gray;
+    border-radius: 2em;
+    float: right;
+    margin-right: 1em;
+    padding: 1em;
+    width: 40%;
+    margin-bottom: 1em;
+}
+#link_index a {
+    text-decoration: none;
+    background-color: #7A97BA;
+    text-align: center;
+    color: rgb(80, 79, 79);
+    font-weight: bold;
+    float: left;
+    font-size: 1.3em;
+    border: 1px solid white;
+    width: 90%;
+    border-radius:3em;
+    margin-left:5%;
+    margin: 0.5em;
+    padding:0.5em;
+    clear:none;
+    
+}
+
+#link_index a:hover {
+    color: #1F487E;
+}
+#link_index h3 {
+    color: #83CD29;
+    margin-bottom: 1em;
+}
+
+#intro_para{
+    width: 40%;
+    float: left;
+    border: 1px solid white;
+    border-radius: 1em;
+    padding:1em;
+}
+
+#about{
+    margin: 3em;
+    clear: left;
+    float:left;
+}
+
+.header_title_index {
+    color: #83CD29;
+    text-align: center;
+    font-size: 2em;
+}
+th{
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    color: rgb(159, 175, 159);
+}
+
+.table_explain {
+    margin-left: 1em;
+    text-align: left;
+    font-style: italic;
+}
+
+#youtube_link {
+    width: 40%;
+    float: right;
+    border: 1px solid lightcoral;
+    border-radius: 1em;
+    margin: 1em;
+    clear: right;
+    padding: 0.25em;
+}
+
+#youtube_link a {
+    color: white;
+    text-decoration: none;
+}
+
+#youtube_link p {
+    text-align: center;
+}
+
+#youtube_link a:hover {
+    color: #1F487E;
+}
+
+#youtube_link h3 {
+    color: #83CD29;
+    margin: 0.25em;
+    margin-left: 0.5em;
+    
+}
