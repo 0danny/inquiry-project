@@ -131,9 +131,9 @@ aside {
     padding-left: .5rem;
     margin-left: .5rem;
     float: right;
-    box-shadow: inset 5px 0 5px -5px #29627e;
+    box-shadow: inset 5px 0 5px -5px #8adbf7;
     font-style: italic;
-    color: #29627e;
+    color: #6baabe;
 }
 
 aside > p {
@@ -256,7 +256,6 @@ dt {
     float: left;
     clear: left;
     text-align: right;
-    font-weight: bold;
     width: 120px;
     color: #2da6db;
 }
