@@ -100,7 +100,6 @@ span {
 }
 
 #special {
-    border: solid;
     color: white;
     background-color: #1A2431;
     font-weight: 700;
@@ -115,7 +114,6 @@ span {
 }
 
 .title, .paragraph p, .images, #ryan_dahl, .table, #o_list {
-    border: solid;
     padding: 10px;
     text-align: left;
     margin: auto;
@@ -141,7 +139,7 @@ aside > p {
 }
 
 #ryan_dahl {
-    max-width: 750px;
+    max-width: 59%;
     height: auto;
 }
 
