@@ -115,7 +115,7 @@ span {
     font-weight: 600;
 }
 
-.title, p, .images, #ryan_dahl, .table, #u_list {
+.title, p, .images, #ryan_dahl, .table, #o_list {
     padding: 10px;
     padding-left: 15px;
     text-align: left;
@@ -153,7 +153,7 @@ img {
     border-radius: 8px;
   }
 
-p, figcaption, caption, #u_list, .table {
+p, figcaption, caption, #o_list, .table {
     color: #7C97BA;
     font-weight: initial;
     font-size: larger;
@@ -277,7 +277,20 @@ dd {
     margin-left: 1.5rem
 }
 
-#u_list li {
+ol {
+    list-style: none;
+    counter-reset: li}
+
+#o_list li::before {
+    content: counter(li);
+    color: goldenrod;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em}
+
+li {counter-increment: li}
+
+#o_list li {
     margin-left: 3rem;
     padding: 0.2rem;
 }
