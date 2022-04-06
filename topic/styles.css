@@ -315,3 +315,9 @@ a:hover {
 a:active {
     color: #343b67;
 }
+
+#o_list p {
+    width: 100%;
+    font-size: large;
+    margin-left: -5px;
+}
