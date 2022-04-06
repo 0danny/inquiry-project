@@ -59,9 +59,6 @@ nav a {
 
 #sub_head {
     font-size: 0.5em;
-    padding: -15px;
-    margin-top: 70px;
-    margin-bottom: -50px;
 }
 
 #sub_head a {
@@ -101,10 +98,8 @@ span {
 
 #special {
     color: white;
-    background-color: #1A2431;
     font-weight: 700;
     text-align: center;
-    padding: 30px 65px 85px 165px;
 }
 
 .title {
@@ -122,6 +117,11 @@ span {
 .paragraph p {
     border: none;
     width: 59%;
+}
+
+section.paragraph {
+    width: 60%;
+    margin: auto;
 }
 
 aside {
