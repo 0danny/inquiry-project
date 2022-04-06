@@ -1,0 +1,17 @@
+/* resposnive .css */
+/* media query for display over 500 */
+
+@media screen and (min-width: 31.25em) {
+    
+   nav a {
+       clear: both;
+       float: middle;
+       display:flex;
+       flex-direction: column;
+   }
+
+}
+
+article {
+    min-width: 600px;
+}
