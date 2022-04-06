@@ -126,7 +126,7 @@ span {
     border: 10px solid gray;
     border-radius: 2em;
     float: right;
-    margin-right: 3em;
+    margin-right: 1em;
     padding: 1em;
     width: 40%;
     margin-bottom: 1em;
@@ -163,8 +163,6 @@ span {
     border: 1px solid white;
     border-radius: 1em;
     padding:1em;
-    
-    
 }
 
 #about{
@@ -185,9 +183,39 @@ th{
     color: rgb(159, 175, 159);
 }
 
-.table_explain{
+.table_explain {
     margin-left: 1;
     text-align: left;
     font-style: italic;
 }
 
+#youtube_link {
+    width: 40%;
+    float: right;
+    border: 1px solid lightcoral;
+    border-radius: 1em;
+    margin: 1em;
+    clear: right;
+    padding: 0.25em;
+}
+
+#youtube_link a {
+    color: white;
+    text-decoration: none;
+    float: center;
+}
+
+#youtube_link p {
+    text-align: center;
+}
+
+#youtube_link a:hover {
+    color: #1F487E;
+}
+
+#youtube_link h3 {
+    color: #83CD29;
+    margin: 0.25em;
+    margin-left: 0.5em;
+    
+}
