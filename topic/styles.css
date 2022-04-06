@@ -62,8 +62,6 @@ nav a {
     padding: -15px;
     margin-top: 70px;
     margin-bottom: -50px;
-    margin-left: -150px;
-    margin-right: -150px;
 }
 
 #sub_head a {
@@ -102,34 +100,34 @@ span {
 }
 
 #special {
+    border: solid;
     color: white;
     background-color: #1A2431;
     font-weight: 700;
     text-align: center;
     padding: 30px 65px 85px 165px;
-    width: 90%;
 }
 
 .title {
     color: #83CD29;
     font-weight: 600;
+    width: 59%;
 }
 
-.title, p, .images, #ryan_dahl, .table, #o_list {
+.title, .paragraph p, .images, #ryan_dahl, .table, #o_list {
+    border: solid;
     padding: 10px;
-    padding-left: 15px;
     text-align: left;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin: auto;
 }
 
-p {
+.paragraph p {
     border: none;
     width: 59%;
 }
 
 aside {
-    width: 15%;
+    width: 30%;
     padding-left: .5rem;
     margin-left: .5rem;
     float: right;
@@ -153,10 +151,14 @@ img {
     border-radius: 8px;
   }
 
-p, figcaption, caption, #o_list, .table {
+.paragraph p, figcaption, caption, #o_list, .table {
     color: #7C97BA;
     font-weight: initial;
     font-size: larger;
+}
+
+.images {
+    width: 59%;
 }
 
 figcaption {
@@ -241,10 +243,9 @@ table.roundedCorners, th, td {
     border: none;
     padding: 10px;
     padding-left: 15px;
-    width: 60%;
+    width: 59%;
     margin-left: 150px;
-    margin-right: 150px;
-    margin-bottom: 20px;
+    margin: auto;
 }
 
 dl {
@@ -277,6 +278,9 @@ dd {
     margin-left: 1.5rem
 }
 
+#o_list {
+    width: 59%;
+}
 ol {
     list-style: none;
     counter-reset: li}
