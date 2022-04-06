@@ -143,7 +143,7 @@ span {
     width: 90%;
     border-radius:3em;
     margin-left:5%;
-    
+    margin: 0.5em;
     padding:0.5em;
     clear:none;
     
@@ -184,7 +184,7 @@ th{
 }
 
 .table_explain {
-    margin-left: 1;
+    margin-left: 1em;
     text-align: left;
     font-style: italic;
 }
@@ -202,7 +202,6 @@ th{
 #youtube_link a {
     color: white;
     text-decoration: none;
-    float: center;
 }
 
 #youtube_link p {
