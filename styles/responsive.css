@@ -3,15 +3,9 @@
 
 /* media query for display over 500 */
 
-@media screen and (min-width: 31.25em) {
-    #sub_head a {
-        display: block;
-    }
-}
-
-@media screen and (min-width: 31.25em) {
-    #sub_head a {
-        display: block;
+@media screen and (max-width: 1350px) {
+    #sub_head {
+        flex-direction: column !important;
     }
 }
 
