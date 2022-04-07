@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Node JS Topic</title>
+    <!-- Icon for the webpage -->
     <link rel="icon" href="styles/images/node_logo.webp">
     <!-- References to external responsive CSS file -->
     <link href="styles/responsive.css" rel="stylesheet" />
@@ -19,11 +20,13 @@
 
 <body>
 
+    <!-- Header section with -->
     <header>
         <div class="header_title_wrapper">
             <a href="index.html">
                 <img src="styles/images/node_logo.webp" class="header_logo" alt="node logo">
             </a>
+            <!-- Heading hierarchical level 1 -->
             <h1 class="header_title">Node.JS</h1>
         </div>
 
@@ -41,7 +44,9 @@
         </div>
     </header>
 
+    <!-- Section with hyperlink references to the subtopics -->
     <section id="special">
+        <!-- Heading hierarchical level 2 -->
         <h2>About Node.JS</h2>
 
         <nav id="sub_head">
@@ -57,6 +62,7 @@
         </nav>
     </section>
 
+    <!-- Section 1 -->
     <section class="paragraph">
         <h2 class="title" id="1">What is it?</h2>
 
@@ -64,15 +70,18 @@
             client applications.<a href="#node"><sub>[1]</sub></a></p>
     </section>
 
+    <!-- Aside -->
     <aside>
         Node.js runs on various platforms, including Windows, Linux, Unix, and Mac OS.
         <br><br> Examples include a Web App running inside a web browser or a mobile app running on a mobile device.
     </aside>
 
+    <!-- Section 2 -->
     <section class="paragraph">
         <h2 class="title" id="2">Reasons for using Node</h2>
 
         <div class="table">
+            <!-- Table -->
             <table>
                 <caption>Pros and Cons<a href="#pros_cons"><sub>[2]</sub></a></caption>
                 <tr>
@@ -81,6 +90,7 @@
                 </tr>
                 <tr>
                     <td class="pros_points">
+                        <!-- unordered list 1 -->
                         <ul>
                             <li>Node.js has paved the way for <a href="#js">JavaScript</a> to the server side</li>
                             <li><a href="#async">Asynchronous</a></li>
@@ -90,6 +100,7 @@
                         </ul>
                     </td>
                     <td class="cons_points">
+                        <!-- unordered list 2 -->
                         <ul>
                             <li>Heavy computations incapacity</li>
                             <li>Callback hell</li>
@@ -103,6 +114,7 @@
             and reading a file, and instead simply continues with the next request.<a href="#node_rise"><sub>[3]</sub></a></dd>
         </p>
 
+        <!-- Figure and Caption 1 -->        
         <figure class="images">
             <img src="styles/images/node_architecture.jpg" alt="Node.js single thread can handle multiple requests">
             <figcaption>Node.js' asynchronous technology</figcaption>
@@ -110,6 +122,7 @@
 
         <p>In contrast, runtimes with <a href="#sync">synchronous programming</a>, such as <a href="#php">PHP</a> and <a href="#asp">ASP</a>, must return the content to the server before the request for the next file can be placed.<a href="#node_rise"><sub>[4]</sub></a></p>
 
+        <!-- Figure and Caption 2 -->           
         <figure class="images">
             <img src="styles/images/synchronous_technologies.jpg" alt="Synchronous technology thread can only had one request at a time">
             <figcaption>Synchronous technologies can only handle one request at a time</figcaption>
@@ -120,10 +133,12 @@
             constructing the core of the applications rather than building the whole thing from the ground up.<a href="#js1"><sub>[5]</sub></a> </p>
     </section>
 
+    <!-- Section 3 -->
     <section class="paragraph">
         <h2 class="title" id="3">What can Node do?<a href="#node"><sub>[6]</sub></a></h2>
 
         <div id="o_list">
+            <!-- ordered list 1 -->
             <ol>
                 <li>Generate dynamic page content</li>
                 <li>Create, open, read, write, delete, and close files on the server</li>
@@ -133,18 +148,21 @@
         </div>
     </section>
 
+    <!-- Section 4 -->
     <section class="paragraph">
         <h2 class="title" id="4">The creator</h2>
 
         <p>Ryan Dahl initially released Node.js in May 27, 2009. His inspiration for developing the runtime arose from the problem he faced when trying to update a progress meter on a web page used for uploading files with Ruby web servers. At a glance,
             a truly simple task, which however required a truly complex solution.<a href="#cr"><sub>[7]</sub></a></p>
 
+        <!-- Figure and Caption 3 -->    
         <figure id="ryan_dahl">
             <img src="styles/images/ryan_dahl.jpg" alt="Ryan Dahl">
             <figcaption>Ryan Dahl, the creator of Node.JS</figcaption>
         </figure>
     </section>
 
+    <!-- Section 5 -->
     <section class="paragraph">
         <h2 class="title" id="5"> Node.js governance</h2>
 
@@ -152,11 +170,13 @@
             Build, Diagnostics, i18n, Evangelism, Docker, Addon API, Benchmarking, Post-mortem, Intl, Documentation, and Testing.<a href="#gov"><sub>[8]</sub></a></p>
     </section>
 
+    <!-- Section 6 -->
     <section class="paragraph">
         <h2 class="title" id="6">The dominance of Node</h2>
 
         <p>There are several stats which claim Node.js' rise to dominance over the past couple of years. Such is the graph below which depicts the runtime’s dominance in the IT world as of 2019.<a href="#node_rise"><sub>[9]</sub></a></p>
 
+        <!-- Figure and Caption 4 -->    
         <figure class="images">
             <img src="styles/images/node.js_for_enterprises.png" alt="Node.js enterprise dominance chart">
             <figcaption>The dominance of Node.js in the IT world as of 2019</figcaption>
@@ -164,6 +184,7 @@
 
         <p>The skill to work in Node has also become very sought after in the eyes of tech giants when seeking applicants to their job advertisements, as depicted by the Indeed Job Trends chart found below.<a href="#node_rise"><sub>[10]</sub></a></p>
 
+        <!-- Figure and Caption 5 -->    
         <figure class="images">
             <img src="styles/images/node.js_job_trends.png" alt="Node.js job trends chart">
             <figcaption>Popularity of Node.js as outlined by Indeed Job Trends</figcaption>
@@ -174,6 +195,7 @@
         </p>
     </section>
 
+    <!-- Section 7 -->
     <section class="paragraph">
         <h2 class="title" id="7">The future of Node</h2>
 
@@ -182,10 +204,12 @@
         </p>
     </section>
 
+    <!-- Section 8 -->
     <section class="paragraph">
         <h2 class="title" id="8">Related technologies</h2>
 
         <div id="o_list">
+            <!-- ordered list 2 -->
             <ol>
                 <li>Elixir</li>
                 <p>Elixir is a programming language which is used to build and maintain applications. The technology is mainly used by programmers that focus on scalability and functional programming.<a href="#elixir"><sub>[13]</sub></a></p>
@@ -200,10 +224,12 @@
 
     </section>
 
+    <!-- Section 9 -->
     <section class="paragraph">
         <h2 class="title" id="9">Definitions</h2>
 
         <div id="def_list">
+            <!-- definition list -->
             <dl>
                 <dt id="api">API</dt>
                 <dd>Acronym for "Application Programming Interface", is a software that allows two or more application to communicate with each other<a href="#api1"><sub>[17]</sub></a></dd>
@@ -231,6 +257,7 @@
     <footer>
 
         <p id="footnotes">
+            <!-- Text References -->
             <strong>References</strong>
             <br><br>
             <a id="node" href="https://www.w3schools.com/nodejs/nodejs_intro.asp">https://www.w3schools.com/nodejs/nodejs_intro.asp</a><sub>[1] [6]</sub>
@@ -271,8 +298,6 @@
             <br>
             <a id="js2" href="https://www.analyticsinsight.net/best-programming-languages-for-web-development/">https://www.analyticsinsight.net/best-programming-languages-for-web-development/</a><sub>[21]</sub>
             <br>
-            <a id="otherpage" href="https://stackoverflow.com/questions/20565644/how-to-link-to-a-div-on-another-page">https://stackoverflow.com/questions/20565644/how-to-link-to-a-div-on-another-page</a><sub>[26]</sub>
-            <br>
             <a id="otherpage" href="https://mindmajix.com/node-js/node-basic-examples">https://mindmajix.com/node-js/node-basic-examples</a><sub>[26]</sub>
             <br>
             <a id="otherpage" href="https://www.the-guild.dev/blog/support-nodejs-esm">https://www.the-guild.dev/blog/support-nodejs-esm</a><sub>[26]</sub>
@@ -280,9 +305,20 @@
             <a id="otherpage" href="https://nodejs.org/en/about/">https://nodejs.org/en/about/</a><sub>[26]</sub>
             <br>
             <a id="otherpage" href="https://www.youtube.com/watch?v=8u1o-OmOeGQ">https://www.youtube.com/watch?v=8u1o-OmOeGQ</a><sub>[26]</sub>
-
-
-
+            <br>
+            <!-- HTML Code References -->   
+            <a id="otherpage" href="https://stackoverflow.com/questions/20565644/how-to-link-to-a-div-on-another-page">https://stackoverflow.com/questions/20565644/how-to-link-to-a-div-on-another-page</a><sub>[26]</sub>
+            <br>
+            <!-- Add an icon to the webpage  (topic.html line 13) -->
+            <a href="https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favicon-for-a-website">https://stackoverflow.com/questions/4888377/how-to-add-a-browser-tab-icon-favicon-for-a-website</a>
+            <br>
+            <a href=""></a>
+            <!-- CSS Code References -->
+            <!-- Changes numbers/points in lists to different colors (topic.css lines 132-142 & 251-262)-->
+            <a href="https://www.w3.org/Style/Examples/007/color-bullets.en.html ">https://www.w3.org/Style/Examples/007/color-bullets.en.html</a>
+            <br>
+            <!-- Removes cell spacing/padding between table contents  (topic.css lines 186-189)-->
+            <a href="https://stackoverflow.com/questions/16427903/remove-all-padding-and-margin-table-html-and-css">https://stackoverflow.com/questions/16427903/remove-all-padding-and-margin-table-html-and-css</a>
         </p>
         <br>
         <p class="completed_by">
