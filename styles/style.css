@@ -74,6 +74,15 @@ footer p {
     color: white;
 }
 
+footer p a{
+    color: white;
+    text-decoration: none;
+}
+
+footer p a:hover{
+    color: #1F487E;
+}
+
 span {
     color: #7A97BA;
     font-size: 1.3em;
