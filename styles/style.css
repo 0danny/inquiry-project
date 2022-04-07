@@ -74,12 +74,13 @@ footer p {
     color: white;
 }
 
-footer p a{
+footer p a {
     color: white;
     text-decoration: none;
+    transition: 0.2s all;
 }
 
-footer p a:hover{
+footer p a:hover {
     color: #1F487E;
 }
 
@@ -98,4 +99,9 @@ span {
 
 .github_logo:hover {
     background-color: #83CD29;
+}
+
+.completed_by {
+    text-align: center;
+    font-style: italic;
 }
