@@ -7,6 +7,25 @@
     margin-right: -10px;
 }
 
+#sub_head {
+    flex: 2;
+}
+
+#sub_head a {
+    text-decoration: none;
+    color: #7A97BA;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.2s all;
+    font-size: 1.3em;
+    padding: 20px;
+    border-bottom: 1px solid #7A97BA;
+    border-top: 1px solid hsl(213, 32%, 60%);
+}
+
+#sub_head a:hover {
+    color: #1F487E;
+}
 
 #special {
     color: white;
@@ -21,7 +40,12 @@
     width: 59%;
 }
 
-.title, .paragraph p, .images, #ryan_dahl, .table, #o_list {
+.title,
+.paragraph p,
+.images,
+#ryan_dahl,
+.table,
+#o_list {
     padding: 10px;
     text-align: left;
     margin: auto;
@@ -33,7 +57,7 @@
 }
 
 section.paragraph {
-    width: 60%;
+    width: 100%;
     margin: auto;
 }
 
@@ -47,7 +71,7 @@ aside {
     color: #6baabe;
 }
 
-aside > p {
+aside>p {
     margin: .5rem;
 }
 
@@ -60,9 +84,13 @@ img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-  }
+}
 
-.paragraph p, figcaption, caption, #o_list, .table {
+.paragraph p,
+figcaption,
+caption,
+#o_list,
+.table {
     color: #7C97BA;
     font-weight: initial;
     font-size: larger;
@@ -80,7 +108,9 @@ table th {
     font-weight: bold;
 }
 
-ul {list-style: none}
+ul {
+    list-style: none
+}
 
 li::before {
     content: "•";
@@ -137,7 +167,9 @@ table li {
     padding-bottom: 0.3em;
 }
 
-table.roundedCorners, th, td {
+table.roundedCorners,
+th,
+td {
     color: white;
     background-color: #343b67;
     font-weight: initial;
@@ -188,18 +220,23 @@ dd {
 #o_list {
     width: 59%;
 }
+
 ol {
     list-style: none;
-    counter-reset: li}
+    counter-reset: li
+}
 
 #o_list li::before {
     content: counter(li);
     color: goldenrod;
     display: inline-block;
     width: 1em;
-    margin-left: -1em}
+    margin-left: -1em
+}
 
-li {counter-increment: li}
+li {
+    counter-increment: li
+}
 
 #o_list li {
     margin-left: 3rem;
@@ -207,7 +244,7 @@ li {counter-increment: li}
 }
 
 footer strong {
-    font-size:large;
+    font-size: large;
 }
 
 a:link {
