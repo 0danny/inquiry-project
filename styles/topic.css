@@ -1,13 +1,16 @@
 #sub_head {
-    font-size: 0.5em;
+    font-size: 1em;
     margin: 50px;
 }
 
 #sub_head a {
-    margin-right: -10px;
+    margin-right: 10px;
 }
 
 #sub_head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     flex: 2;
 }
 
