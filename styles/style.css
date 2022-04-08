@@ -7,8 +7,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
-    background-color: #1A2431;
+body { /*sets background colour for whole body*/
+        background-color: #1A2431;
 }
 
 header {
