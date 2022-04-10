@@ -1,4 +1,0 @@
-# inquiry-project
-
-
-kekejke
