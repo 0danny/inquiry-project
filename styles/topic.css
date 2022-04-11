@@ -55,7 +55,7 @@ h1.header_title {
 .images,
 #ryan_dahl,
 .table,
-#o_list {
+.o_list {
     padding: 10px;
     text-align: left;
     margin: auto;
@@ -107,7 +107,7 @@ img {
 
 /* sets selector (class paragraph p, id o_list, class table) (font) color, font weight, and font size  */
 .paragraph p,
-#o_list,
+.o_list,
 .table {
     color: #7C97BA;
     font-weight: initial;
@@ -245,7 +245,7 @@ dd {
     margin-left: 1.5rem
 }
 
-#o_list {
+.o_list {
     width: 59%;
 }
 
@@ -254,7 +254,7 @@ ol {
     counter-reset: li;
 }
 
-#o_list li::before {
+.o_list li::before {
     content: counter(li);
     color: goldenrod;
     display: inline-block;
@@ -266,7 +266,7 @@ li {
     counter-increment: li
 }
 
-#o_list li {
+.o_list li {
     margin-left: 3rem;
     padding: 0.2rem;
 }
@@ -291,7 +291,7 @@ a:active {
     color: #343b67;
 }
 
-#o_list p {
+.o_list p {
     width: 100%;
     font-size: large;
     margin-left: -5px;
